@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "data-competition-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "data_competition_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlflow = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.262"
+pytest = "^7.3.1"
+pyright = "^1.1.304"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
